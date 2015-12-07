@@ -96,8 +96,6 @@ try:
 except ImportError:
     from ordereddict import OrderedDict
 
-# Now use it from any version of Python
-# mydict = OrderedDict()
 
 import my_constants
 
@@ -125,7 +123,7 @@ def main():
     """
     # definition and usage of external options/arguments
     # note that the input read file is the only requirement option/argument
-    usage = 'usage: %prog -r <file path> -i <file path> ' \
+    usage = 'usage: %prog -r <file path>'  \
             '-a <positive integer> -b <positive integer> ' \
             '-c <positive integer> -d <positive integer> ' \
             '-e <positive integer>'
